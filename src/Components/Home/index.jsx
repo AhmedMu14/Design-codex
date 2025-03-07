@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import videoFile from "../../assets/video.mp4";
 
-const services = ["WEB DEVELOPMENT", "DIGITAL MARKETING", "CYBER SECURITY", "GRAPHIC DESIGINING", "VIDEO EDITING", "UI/UX DESIGN"]; // Add more services
+const services = ["WEB DEVELOPMENT", "DIGITAL MARKETING", "CYBER SECURITY", "GRAPHIC DESIGNING", "VIDEO EDITING", "UI/UX DESIGN"]; // Add more services
 
 const HeroSection = () => {
     const [text, setText] = useState("");
@@ -50,7 +50,7 @@ const HeroSection = () => {
 
             {/* Content */}
             <div className="relative text-center px-6 max-w-4xl mx-auto">
-                <h1 className="text-4xl md:text-4xl lg:text-4xl  leading-tight">
+                <h1 className="text-xl md:text-4xl lg:text-4xl  leading-tight">
                     Welcome to Design Codex – Your Digital Transformation Partner!
                     <br /> EXPERT IN&nbsp;
                     <span className="text-blue-400 font-semibold">{text}</span>
