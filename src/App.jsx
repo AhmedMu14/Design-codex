@@ -7,6 +7,7 @@ import Services from './Components/Services/index.jsx';
 import FAQs from './Components/FAQs/index.jsx';
 import Contact from './Components/Contact/index.jsx';
 import Scroll from './Components/Scroll/index.jsx';
+import WhatsApp from './Components/Whatsapp/index.jsx';
 import Footer from './Components/Footer/index.jsx';
 import React from 'react';
 
@@ -22,6 +23,7 @@ const App = () => {
     <FAQs/>
     <Contact/>
     <Scroll/>
+    <WhatsApp/>
     <Footer/>
   </div>
   };
