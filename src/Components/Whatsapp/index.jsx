@@ -7,11 +7,11 @@ const WhatsApp = () => {
     return (
         <a
             href={`https://wa.me/${phoneNumber}`}
-            className="fixed bottom-22 right-7 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all"
+            className="fixed bottom-22 right-8 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all"
             target="_blank"
             rel="noopener noreferrer"
         >
-            <FaWhatsapp className="text-3xl" />
+            <FaWhatsapp className="text-2xl" />
         </a>
     );
 };
