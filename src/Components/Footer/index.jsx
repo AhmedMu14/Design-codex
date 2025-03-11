@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faTiktok, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane, faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/logo.png";
 import React from "react";
@@ -24,6 +24,9 @@ const Footer = () => {
                         </a>
                         <a href="https://www.tiktok.com/@designcodex" className="text-gray-400 hover:text-white">
                             <FontAwesomeIcon icon={faTiktok} size="lg" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/106874635/admin/settings/manage-admins/" className="text-gray-400 hover:text-white">
+                            <FontAwesomeIcon icon={faLinkedin} size="lg" />
                         </a>
                     </div>
                 </div>
