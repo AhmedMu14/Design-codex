@@ -31,13 +31,13 @@ const WorkProcess = () => {
       <div className="text-center mb-12">
         <h2
           id="faqs"
-          className="mb-6 text-2xl sm:text-3xl md:text-4xl font-semibold text-[#114B9F] relative inline-block 
-          after:content-[''] after:absolute after:left-1/2 after:-bottom-2 after:w-[120px] sm:after:w-[150px] 
+          className="mb-6 text-2xl sm:text-3xl md:text-4xl font-semibold  relative inline-block 
+          after:content-[''] after:absolute after:left-1/2 after:-bottom-2 after:w-[140px] sm:after:w-[150px] 
           md:after:w-[180px] lg:after:w-[210px] after:h-1 after:bg-[#114B9F] after:rounded-lg after:-translate-x-1/2"
         >
           Work Process
         </h2>
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-3">
+        <h3 className="text-xl sm:text-2xl md:text-3xl text-[#114B9F] font-bold mt-3">
           Our Working Process
         </h3>
       </div>

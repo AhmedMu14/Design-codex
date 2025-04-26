@@ -7,11 +7,12 @@ const AboutUs = () => {
     return (
         <section id="about" className="bg-[#0c0c1e] text-white py-16 px-6">
             <div className="max-w-6xl mx-auto text-center">
-                <h2 className="mb-10 text-2xl sm:text-3xl md:text-4xl font-semibold text-white relative inline-block 
-    after:content-[''] after:absolute after:left-1/2 after:-bottom-2 after:w-32 sm:after:w-40 md:after:w-37 
+            <h2 className="mb-10 text-2xl sm:text-3xl md:text-4xl font-semibold text-white relative inline-block 
+    after:content-[''] after:absolute after:left-1/2 after:-bottom-2 after:w-25 sm:after:w-32 md:after:w-40 
     after:h-1 after:bg-[#114B9F] after:rounded-lg after:-translate-x-1/2">
-                    About Us
-                </h2>
+    About Us
+</h2>
+
 
                 <div className="flex flex-col md:flex-row items-center gap-10">
                     {/* Image Section */}
