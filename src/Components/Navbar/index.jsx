@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`navbar flex justify-between items-center px-4 h-24 text-white fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-black shadow-lg" : "bg-transparent"
+      className={`navbar flex justify-between items-center px-1 h-24 text-white fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-black shadow-lg" : "bg-transparent"
         }`}
     >
       <div className="flex items-center justify-start p-1 logo">
@@ -32,7 +32,7 @@ const Navbar = () => {
 
       <ul
         className={`nav-link list-none flex justify-center space-x-9 font-semibold flex-grow 
-        ${isOpen ? "flex flex-col absolute bg-black w-45 h-[50vh] top-18 right-0 z-10 px-5 space-y-10" : "hidden md:flex"}`}
+        ${isOpen ? "flex flex-col absolute bg-black w-45 h-[65vh] top-18 right-0 z-10 px-5 space-y-10" : "hidden md:flex"}`}
       >
         <li>
           <a href="#home" className="text-base text-white transition-colors hover:text-[#7093c5]" onClick={() => setIsOpen(false)}>
@@ -45,8 +45,18 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a href="#team" className="text-base text-white transition-colors hover:text-[#7093c5]" onClick={() => setIsOpen(false)}>
+            Team
+          </a>
+        </li>
+        <li>
           <a href="#services" className="text-base text-white transition-colors hover:text-[#7093c5]" onClick={() => setIsOpen(false)}>
             Services
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio" className="text-base text-white transition-colors hover:text-[#7093c5]" onClick={() => setIsOpen(false)}>
+            Portfolio
           </a>
         </li>
         <li>

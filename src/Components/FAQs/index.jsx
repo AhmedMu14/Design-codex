@@ -9,7 +9,7 @@ function Index() {
                         <h2
                             id="faqs"
                             className="mb-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white relative inline-block max-w-fit 
-                            after:content-[''] after:absolute after:left-1/2 after:-bottom-2 after:w-20 sm:after:w-32 md:after:w-40 lg:after:w-52 
+                            after:content-[''] after:absolute after:left-1/2 after:-bottom-2 after:w-20 sm:after:w-32 md:after:w-40 lg:after:w-150 
                             after:h-1 after:bg-[#114B9F] after:rounded-lg after:-translate-x-1/2"
                         >
                             Frequently Asked Questions
