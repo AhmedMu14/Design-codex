@@ -47,12 +47,12 @@ const servicesData = [
         color: "#4caf50",
     },
     {
-        title: "Cyber Security",
+        title: "App Development",
         description:
-            "We protect your business from cyber threats with advanced security solutions, ensuring data integrity, safety, risk mitigation, and continuous threat monitoring.",
+            "Design Codex builds powerful Android, iOS, and cross-platform apps that bring your ideas to life. We combine innovative design with cutting-edge technology.",
         details:
-            "Design CodeX provides robust cyber security solutions to protect your business from digital threats. We offer advanced security measures, including threat detection, data encryption, and risk management, ensuring your systems remain safe and resilient. Our expert team helps safeguard sensitive information and prevent cyber attacks. Stay secure with our cutting-edge cybersecurity services.",
-        icon: "🔒",
+            "At Design Codex, we craft innovative mobile apps for Android, iOS, and cross-platform needs.Our expert team ensures sleek design, flawless performance, and user-friendly experiences.Turn your ideas into powerful apps and grow your digital presence with us!",
+        icon: "📺",
         color: "#4caf50",
     },
 ];
