@@ -34,7 +34,7 @@ const HeroSection = () => {
     }, [charIndex, isDeleting, serviceIndex]);
 
     return (
-        <div id= "home"className="relative w-full h-screen flex items-center justify-center text-white overflow-hidden">
+        <div id="home" className="relative w-full h-screen flex items-center justify-center text-white overflow-hidden">
             {/* Background Video */}
             <video
                 autoPlay
@@ -58,16 +58,17 @@ const HeroSection = () => {
                 </h1>
 
                 <div className="mt-6 flex flex-row sm:flex-row justify-center gap-4">
-                   <a href="#contact">
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg text-base md:text-lg font-semibold shadow-lg transition w-full sm:w-auto mt-2 sm:ml-4">
-                        Contact Us
-                    </button>
+                    <a href="#contact">
+                        <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg text-base md:text-lg font-semibold shadow-lg transition w-full sm:w-auto mt-2 sm:ml-4">
+                            Contact Us
+                        </button>
+
                     </a>
 
                     <a href="#about">
-                    <button className="border border-blue-500 hover:bg-blue-500 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg text-base md:text-lg font-semibold shadow-lg transition w-full sm:w-auto mt-2 sm:ml-4">
-                        Learn More
-                    </button>
+                        <button className="border border-blue-500 hover:bg-blue-500 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg text-base md:text-lg font-semibold shadow-lg transition w-full sm:w-auto mt-2 sm:ml-4">
+                            Learn More
+                        </button>
                     </a>
 
 

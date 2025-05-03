@@ -26,7 +26,7 @@ const AboutUs = () => {
                             Who We Are
                         </h3>
                         <p className="text-gray-300 text-base leading-relaxed">
-                            At Design Codex, we are not just a digital agency—we are your trusted partner in the evolving world of technology and cybersecurity. Our expertise spans web development, digital marketing, Flutter app development, graphic designing, video editing, and cybersecurity solutions.At Design Codex, innovation and security go hand in hand.
+                            At Design Codex, we are not just a digital agency—we are your trusted partner in the evolving world of technology and cybersecurity. Our expertise spans web development, digital marketing, Flutter app development, graphic designing and video editing solutions.At Design Codex, innovation and security go hand in hand.
                         </p>
                         <button
                             onClick={() => setShowDetails(true)}
